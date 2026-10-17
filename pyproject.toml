@@ -1,0 +1,22 @@
+[project]
+name = "explainable-dr-screening"
+version = "0.1.0"
+description = "Explainable AI for Diabetic Retinopathy Screening using EfficientNetB0, Grad-CAM, Flask, Bootstrap, and Groq GenAI"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "flask>=3.0,<4.0",
+    "tensorflow>=2.18,<2.22",
+    "numpy>=1.26,<3.0",
+    "pillow>=10.0,<13.0",
+    "matplotlib>=3.8,<4.0",
+    "opencv-python-headless>=4.9,<5.0",
+    "openai>=1.60,<3.0",
+    "python-dotenv>=1.0,<2.0",
+    "reportlab>=5.0.1",
+]
+
+[tool.uv]
+package = false
+
